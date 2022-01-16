@@ -1,0 +1,189 @@
+* {
+    font-family: 'Dexa', sans-serif;
+    box-sizing: border-box;
+}
+
+#background {
+    background: url(../assets/coffee.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(75%);
+    z-index: -1;
+}
+
+#footer, #header {
+    min-height: 4rem;
+}
+
+.dark-blue {
+    color : #389DB4;
+}
+
+.bg-dark-blue-75 {
+    background-color: rgba(56, 157, 180, 0.75);
+}
+
+.blue {
+    color: #3fbedf;
+}
+
+.light-blue {
+    color : #C7ECF6;
+}
+
+.bg-dark-blue {
+    background-color : #389DB4;
+}
+
+.bg-blue {
+    background-color: #3fbedf;
+}
+
+.bg-light-blue {
+    background-color : #C7ECF6;
+}
+
+.bg-white {
+    background-color : #fff;
+}
+
+#main #home-title {
+    height: 6rem;
+    padding-top: 0.5rem;
+}
+
+#spirit-img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+#section-blocks {
+    padding-top: 3rem;
+}
+
+#header-card {
+    max-width: 300px;
+}
+
+.block {
+    width: 10rem;
+    height: 8rem;
+    background-color: #555;
+    margin-bottom: 3rem;
+}
+
+#section-member-intro {
+    height: 12rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#home-nav-items {
+    flex-direction: column;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators button:last-child {
+    margin-right: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #3fbedf;
+    opacity: 1;
+    margin-right: 0.5rem;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.news-article {
+    position: relative;
+    justify-content: center;
+}
+
+#carouselNews {
+    height: auto;
+}
+
+/* Contact form */
+/* Overriding styles */
+
+#form-contact *::-webkit-input-placeholder {
+    font-size: 13px!important;
+ }
+ 
+ #form-contact *:-moz-placeholder { /* Firefox 18- */
+       font-size: 13px!important;
+ }
+ #form-contact *::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 13px!important;
+ }
+
+ #form-contact select, label {
+     font-size: 13px;
+ }
+
+ #form-contact .form-check-label {
+     color: gray;
+ }
+
+ #form-contact {
+    max-width: 300px; 
+ }
+
+@media screen and (min-width: 640px) {
+    #home-nav-items {
+        flex-direction: row;
+    }
+
+    #form-contact {
+        max-width: 600px; 
+     }
+}
+
+@media screen and (min-width: 992px){
+    #navbarSupportedContent {
+        display: flex;
+        justify-content: end;
+    }
+
+    #section-blocks {
+        padding-top: 0;
+    }
+
+    #header-card {
+        max-width: 360px;
+    }
+
+    .news-article {
+        position: absolute;
+        top: 0;
+        right: 0;
+        justify-content: end;
+    }
+
+    #carouselNews {
+        height: 600px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -2rem;
+    }
+
+    #form-contact {
+        max-width: 660px; 
+     }
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Dexa';
+    src: url(../assets/fonts/FontsFree-Net-DexaPro-400-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Dexa';
+    src: url(../assets/fonts/FontsFree-Net-DexaPro-500-Medium.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Dexa';
+    src: url(../assets/fonts/FontsFree-Net-DexaPro-700-Bold.ttf);
+    font-weight: bold;
+}
